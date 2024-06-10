@@ -24,8 +24,8 @@ const Login = ({ setUser }) => {
         <div className="login-container">
           <h1>Login</h1>
           <div className='login-fields'>
-            <input type="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
-            <input type="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+            <input type="email"  placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+            <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
           </div>
           <button type="submit">Login</button> 
           <p className="login-signup">Don´t have an account? <span>Signup here</span></p>
