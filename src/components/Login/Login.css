@@ -63,6 +63,8 @@
 }
 
 .login-singup-button{
+    margin-top: 20px;
     color: navy;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 18px;
 }
