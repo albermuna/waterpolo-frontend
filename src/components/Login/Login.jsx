@@ -28,7 +28,10 @@ const Login = ({ setUser }) => {
             <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
           </div>
           <button type="submit">Login</button> 
-          <p className="login-signup">Don´t have an account? <p className='login-signup-button'>Signup here</p></p>
+          <div className="last-row">
+            <p className="login-signup">Don´t have an account? </p>
+            <p className='login-signup-button'>Signup here</p>
+          </div>
         </div>
       </div>
     </form>
