@@ -14,7 +14,8 @@ const App = () => {
       ) : (
         <div>
           <Login setUser={setUser} />
-          
+          <Register/>
+      
         </div>
       )}
     </div>

@@ -20,16 +20,17 @@ const Login = ({ setUser }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Login</h2>
-      <div>
-        <label>Email:</label>
-        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+      <div className="login">
+        <div className="login-container">
+          <h1>Login</h1>
+          <div className='login-fields'>
+            <input type="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+            <input type="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
+          </div>
+          <button type="submit">Login</button> 
+          <p className="login-signup">Don´t have an account? <span>Signup here</span></p>
+        </div>
       </div>
-      <div>
-        <label>Password:</label>
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-      </div>
-      <button type="submit">Login</button>
     </form>
   );
 };
