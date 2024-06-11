@@ -62,9 +62,7 @@
     font-weight: 500;
 }
 
-.login-singup-button{
-    margin-top: 20px;
+.login-signup span{
     color: navy;
     font-weight: 600;
-    font-size: 18px;
 }
